@@ -255,7 +255,7 @@ When you export from n8n, your workflow JSON carries identifying information fro
 
 | Leak | Where it appears | Risk |
 | --- | --- | --- |
-| **Credential IDs** | `"credentials": { "gmailOAuth2": { "id": "azTgHbjgAlmpE60G" } }` | Instance-specific UUID. Broken elsewhere; a fingerprint of your instance. |
+| **Credential IDs** | `"credentials": { "gmailOAuth2": { "id": "a1b2c3d4e5f6…" } }` | Instance-specific UUID. Broken elsewhere; a fingerprint of your instance. |
 | **Your email address** | `sendTo`, `calendar.value`, `cachedResultName` | Spam, phishing, social engineering |
 | **Your n8n base URL** | `mcpClientTool.endpointUrl` | Exposes your instance hostname & workspace |
 | **Google Doc / Sheet IDs** | `googleDriveTool.fileId` | Grants access if the doc is shared |
