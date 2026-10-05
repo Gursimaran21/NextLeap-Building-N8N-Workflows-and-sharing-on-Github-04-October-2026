@@ -206,7 +206,7 @@ In n8n: open the workflow → **⋮ → Download** → save as JSON.
 | --- | --- | --- |
 | **Workflow name** | `Purpose — Pattern` | `Calendar Assistant — Daily Briefing` |
 | **File name** | Same as workflow name, `.json` | `Calendar Assistant.json` |
-| **Repo name** | `NextLeap-<Topic>-<DD Month YYYY>` | `NextLeap-Multi-Agent-System-Newsletter-Aagent-04-October-2026` |
+| **Repo name** | `NextLeap-<Topic>-<DD Month YYYY>` | `NextLeap-Multi-Agent-System-Newsletter-Agent-04-October-2026` |
 | **Commit message** | Conventional Commits | `feat: add orchestrator agent as tool pattern` |
 
 > 💡 Use **uppercase month names with a space-free `-`** in repo names to avoid case-sensitivity surprises on Linux runners and in URLs.
@@ -299,7 +299,7 @@ NextLeap-Your-Project-04-October-2026/
 └── .gitattributes          # Normalize line endings (optional but good)
 ```
 
-> ✅ **This repo follows the structure above** — it holds the three demo workflows, a README, and a LICENSE. And every `.json` here is already scrubbed: no credential IDs, no real email addresses, no instance URLs. Compare against [the earlier workshop repos](https://github.com/Gursimaran21/NextLeap-Multi-Agent-System-Newsletter-Aagent-04-October-2026) to see what an unscrubbed export looks like.
+> ✅ **This repo follows the structure above** — it holds the three demo workflows, a README, and a LICENSE. And every `.json` here is already scrubbed: no credential IDs, no real email addresses, no instance URLs. Compare against [the earlier workshop repos](https://github.com/Gursimaran21/NextLeap-Multi-Agent-System-Newsletter-Agent-04-October-2026) to see what an unscrubbed export looks like.
 
 **`.gitattributes`** — worth adding to keep diffs clean across Windows/macOS/Linux:
 
@@ -361,7 +361,7 @@ Built as part of a **NextLeap AI Engineer bootcamp** series.
 | --- | --- | --- |
 | 1 | [Google Calendar AI Assistant](https://github.com/Gursimaran21/NextLeap-Google-Calendar-Assistant-04-October-2026) | Single agent + tools, on a schedule |
 | 2 | [Build MCP Server and Client](https://github.com/Gursimaran21/NextLeap-Built-MCP-Server-and-Client-04-October-2026) | MCP — tools over a standard protocol |
-| 3 | [Multi-Agent System — Newsletter Agent](https://github.com/Gursimaran21/NextLeap-Multi-Agent-System-Newsletter-Aagent-04-October-2026) | Multi-agent orchestration |
+| 3 | [Multi-Agent System — Newsletter Agent](https://github.com/Gursimaran21/NextLeap-Multi-Agent-System-Newsletter-Agent-04-October-2026) | Multi-agent orchestration |
 | 4 | **This repo** | Building and sharing workflows |
 
 **Key takeaways:**
